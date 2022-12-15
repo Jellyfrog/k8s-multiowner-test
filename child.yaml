@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: child
+  ownerReferences:
+  - apiVersion: v1
+    kind: ConfigMap
+    name: parent-a
+  - apiVersion: v1
+    kind: ConfigMap
+    name: parent-b
