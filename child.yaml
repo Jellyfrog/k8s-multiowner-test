@@ -6,6 +6,8 @@ metadata:
   - apiVersion: v1
     kind: ConfigMap
     name: parent-a
+    uid: 8d01d369-5e4d-41d9-9fa7-087aca58dce0
   - apiVersion: v1
     kind: ConfigMap
     name: parent-b
+    uid: 4e9c8e32-aa48-4a54-9a12-0823879c4131
